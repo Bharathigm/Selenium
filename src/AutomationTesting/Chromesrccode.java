@@ -24,6 +24,6 @@ public class Chromesrccode
 			System.out.print(URL);
 			String Sourcecode = driver.getPageSource();
 			System.out.print(Sourcecode);
-            
+
 	}
 }
