@@ -5,7 +5,7 @@ import java.nio.channels.InterruptedByTimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class PrintSrccodewebbrowser 
+public class Chromesrccode 
 {	
     public static void main(String[] args) throws InterruptedByTimeoutException
 	{
@@ -24,6 +24,6 @@ public class PrintSrccodewebbrowser
 			System.out.print(URL);
 			String Sourcecode = driver.getPageSource();
 			System.out.print(Sourcecode);
-            System.out.print("Success");
+            
 	}
 }
