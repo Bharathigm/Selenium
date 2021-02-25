@@ -1,7 +1,8 @@
+//write a script to launch google and get title, Url, Source code.
+
 package AutomationTesting;
 
 import java.nio.channels.InterruptedByTimeoutException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,7 +13,7 @@ public class Chromesrccode
 		//specify type of the browser
 		 	String key= "webdriver.chrome.driver";
 		//specify path of drivers .exe file
-		String value = "C:\\Users\\Ganesh\\eclipse-workspace\\Seleniumtest\\drivers\\chromedriver_win32\\chromedriver.exe";
+		String value = ".\\drivers\\chromedriver_win32\\chromedriver.exe";
 		//specify the path of drivers to server
 		 	System.setProperty(key, value);
 		// Launch empty chrome browser
@@ -23,7 +24,7 @@ public class Chromesrccode
 			String URL = driver.getCurrentUrl();
 			System.out.print(URL);
 			String Sourcecode = driver.getPageSource();
-			System.out.print(Sourcecode);
-
+		    System.out.print(Sourcecode);
+		driver.close();
 	}
 }
