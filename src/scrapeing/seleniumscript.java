@@ -11,7 +11,7 @@ public class seleniumscript
 		
 		//WebDriver driver = new ChromeDriver();
 		FirefoxDriver driver = new FirefoxDriver();
-
+		driver.close();
 		
 	}
 	
