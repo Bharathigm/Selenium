@@ -13,7 +13,7 @@ public class LaunchMultipleBrowser
 		//specify type of the browser
 		 	String key= "webdriver.gecko.driver";
 		//specify path of drivers .exe file
-		String value = "C:\\Users\\Ganesh\\eclipse-workspace\\Seleniumtest\\drivers\\geckodriver-v0.29.0-win64\\geckodriver.exe";
+		String value = ".\\drivers\\geckodriver-v0.29.0-win64\\geckodriver.exe";
 		//specify the path of drivers to server
 		 	System.setProperty(key, value);
 		// Launch empty Firefox browser
@@ -23,7 +23,7 @@ public class LaunchMultipleBrowser
 		//specify type of the browser
 		 	String key1= "webdriver.chrome.driver";
 		//specify path of drivers .exe file
-		String value1 = "C:\\Users\\Ganesh\\eclipse-workspace\\Seleniumtest\\drivers\\chromedriver_win32\\chromedriver.exe";
+		String value1 = ".\\drivers\\chromedriver_win32\\chromedriver.exe";
 		//specify the path of drivers to server
 		 	System.setProperty(key1, value1);
 		// Launch empty chrome browser

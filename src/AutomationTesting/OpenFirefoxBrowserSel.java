@@ -12,7 +12,7 @@ public class OpenFirefoxBrowserSel
 		//specify type of the browser
 		 	String key= "webdriver.gecko.driver";
 		//specify path of drivers .exe file
-		String value = "C:\\Users\\Ganesh\\eclipse-workspace\\Seleniumtest\\drivers\\geckodriver-v0.29.0-win64\\geckodriver.exe";
+		String value = ".\\drivers\\geckodriver-v0.29.0-win64\\geckodriver.exe";
 		//specify the path of drivers to server
 		 	System.setProperty(key, value);
 		// Launch empty Firefox browser
