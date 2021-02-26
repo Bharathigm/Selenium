@@ -20,9 +20,9 @@ public class Firefoxidloc
         //Absolute path of html file
         driver.get("file:///C:/Users/Ganesh/eclipse-workspace/Seleniumtest/src/AutomationTesting/Webpages/loc3.html");
         // find the element in the html file with tagname a ,anchor tag
-        driver.findElement(By.id("a1"));
+        driver.findElement(By.id("a2"));
         // it consists of address of element which has tagname as "a"
-        WebElement ele  = driver.findElement(By.id("a1"));
+        WebElement ele  = driver.findElement(By.id("a2"));
         //wait for 3 seconds
         Thread.sleep(3111);
         //perform click action 
