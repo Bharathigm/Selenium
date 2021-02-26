@@ -1,4 +1,4 @@
-//write a script to click on link by using tagname locator for chrome.
+//write a script to click on link by using name locator for chrome.
 package AutomationTesting;
 
 import java.nio.channels.InterruptedByTimeoutException;
@@ -23,7 +23,7 @@ public class Chromenameloc
         driver.get("file:///C:/Users/Ganesh/eclipse-workspace/Seleniumtest/src/AutomationTesting/Webpages/loc3.html");
         // find the element in the html file with tagname a ,anchor tag
         driver.findElement(By.name("n3"));
-        // it consists of address of element which has tagname as "a"
+        // it consists of address of element which has name as "n3"
         WebElement ele  = driver.findElement(By.name("n3"));
         //wait for 3 seconds
         Thread.sleep(3111);

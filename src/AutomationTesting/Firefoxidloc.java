@@ -1,4 +1,4 @@
-//write a script  to click on link by using tagname locator for Firfox .
+//write a script  to click on link by using id locator for Firfox .
 package AutomationTesting;
 import java.nio.channels.InterruptedByTimeoutException;
 import org.openqa.selenium.By;
@@ -21,7 +21,7 @@ public class Firefoxidloc
         driver.get("file:///C:/Users/Ganesh/eclipse-workspace/Seleniumtest/src/AutomationTesting/Webpages/loc3.html");
         // find the element in the html file with tagname a ,anchor tag
         driver.findElement(By.id("a2"));
-        // it consists of address of element which has tagname as "a"
+        // it consists of address of element which has id as "a2"
         WebElement ele  = driver.findElement(By.id("a2"));
         //wait for 3 seconds
         Thread.sleep(3111);
